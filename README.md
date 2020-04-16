@@ -2,4 +2,4 @@
 Reddit Flare Detector designed as a part of the hiring task at MIDAS@IIITD.
 
 # Subreddit
-[r/india] (https://www.reddit.com/r/india/)
+<a href="https://www.reddit.com/r/india/" target="_top">r/india</a>
