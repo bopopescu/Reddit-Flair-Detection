@@ -10,8 +10,8 @@
 
   <title>Reddit Flair Detection</title>
 
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/css/scrolling-nav.css" rel="stylesheet">
 
 </head>
 
@@ -24,7 +24,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Github</a>
+            <a class="nav-link js-scroll-trigger" href="https://github.com/AnshumanPati/Reddit-Flair-Detection">Github</a>
           </li>
         </ul>
       </div>
@@ -33,14 +33,12 @@
 
   <header class="bg-primary text-white">
     <div class="container text-center">
-      <h1>Enter the URL to a Reddit Post here</h1>
+      <h1>Enter the URL to a r/india Post here</h1>
       <div class="input-group input-group-newsletter">
-        <input id="url" type="email" class="form-control" placeholder="URL" aria-label="" aria-describedby="basic-addon">
+        <input id="url" type="text" class="form-control" placeholder="URL" value="">
         <div class="input-group-append">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <button class="btn btn-sm btn-success" href="#about" onclick="again();"><a class="nav-link js-scroll-trigger" href="#about">Detect</a></button>
-            </li>
+              <a class="nav-link js-scroll-trigger btn btn-success" href="#about" onclick="again()"> Detect </a>
           </ul>
         </div>
       </div>
@@ -49,17 +47,36 @@
 
   <section id="about">
     <div class="container">
+        <h2 id='post' class="my-4">Post<h4 id='author'><pre>Author</pre></h4><h6 id='date'><pre>Posted on</pre></h6></h2>
+
+              <!-- Portfolio Item Row -->
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2 id='h'>Post</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-          <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-          </ul>
+
+        <div class="col-md-6">
+        <img id="i" src="http://placehold.it/400x300">
         </div>
+
+        <div class="col-md-6">
+          <p id='para'></p>
+          <h3 class="my-1">Top comments</h3>
+          <ul class="list" id='comments'>
+          <li id="l1"></li>
+          <li id="l2"></li>
+          <li id="l3"></li>
+          <li id="l4"></li>
+          <li id="l5"></li>
+          <li id="l6"></li>
+          <li id="l7"></li>
+          <li id="l8"></li>
+          <li id="l9"></li>
+          <li id="l10"></li>
+          </ul>
+        <h4><pre id="num_comm"></pre></h4>
+        <h4><pre id="score"></pre></h4>
+        <h4><pre id="flair"></pre></h4>
+        <h4><pre id="label"></pre></h4>
+        </div>
+
       </div>
     </div>
   </section>
@@ -72,11 +89,11 @@
     <!-- /.container -->
   </footer>
 
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="js/render.js"></script>
-  <script src="js/scrolling-nav.js"></script>
+  <script src="../static/vendor/jquery/jquery.min.js"></script>
+  <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="../static/js/render.js"></script>
+  <script src="../static/js/scrolling-nav.js"></script>
 
 </body>
 
