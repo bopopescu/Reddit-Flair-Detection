@@ -64,7 +64,7 @@ The approach taken for the task is as follows:
     c) Urls
     d) Body
     e) Combining Title, Comments and Urls as one feature.
-  6. The dataset is split into **70% train** and **30% test** data using `train-test-split` of `scikit-learn`.
+  6. The dataset is split into **80% train** and **20% test** data using `train-test-split` of `scikit-learn`.
   7. The dataset is then converted into a `Vector` and `TF-IDF` form.
   8. Then, the following ML algorithms (using `scikit-learn` libraries) are applied on the dataset:
     
