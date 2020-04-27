@@ -7,12 +7,12 @@ A Reddit Flair Detector web application to detect flairs of India subreddit post
 The directory is a ***Flask*** web application set-up for hosting on *Heroku* servers. The description of files and folders can be found below:
  1. [Data-Acquisition Notebook](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Jupyter%20Notebooks/reddit_data_collection.ipynb) contains all the code that was used to fetch data using PRAW API from reddit and adding it to the mongodb database using pymongo. It was the fetched back from the data base and pre-processed to add it into a CSV file to do the data analysis and build the machine learning model. It was also preprocessed and stored as a json file.
  2. [Exploratory Data Analysis Notebook](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Jupyter%20Notebooks/exploratory_data_analysis.ipynb) contains the code used to do various visual and inferential data analysis and make conclusions based on the visualizations.
-  3. [Flair-Detector Models Notebook](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Jupyter%20Notebooks/flair-detection-models.ipynb) contains the code used to train various machine learning models and check the accuracy on different features and to choose the best model for evaluation.
+  3. [Flair-Detector Models Notebook](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/Jupyter%20Notebooks/flair_detection_models.ipynb) contains the code used to train various machine learning models and check the accuracy on different features and to choose the best model for evaluation.
   4. [requirements.txt](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/requirements.txt) - Containing all Python dependencies of the project.
-  5. [nltk.txt](https://github.com/AnshumanPati/Reddit-Flair-Detector/blob/master/nltk.txt) - Containing all NLTK library needed dependencies.
+  5. [nltk.txt](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/nltk.txt) - Containing all NLTK library needed dependencies.
   6. [Procfile](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/app/Procfile) - Needed to setup Heroku.
-  7. [templates](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/templates/flair_detector) - Folder containing HTML files.
-  8. [static](https://github.com/radonys/Reddit-Flair-Detector/tree/master/templates/flair_detector) - Folder containing CSS and JS files.
+  7. [templates](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/templates) - Folder containing HTML files.
+  8. [static](https://github.com/radonys/Reddit-Flair-Detector/tree/master/templates) - Folder containing CSS and JS files.
   9. [app](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app) - Folder containing the main application which loads the Machine Learning models and renders the results on the web application.
   10. [Data](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Data) - Folder containing CSV, JSON and MongoDB instances of the collected data.
   11. [model](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/model) - Folder containing the saved model.
@@ -45,6 +45,7 @@ The following dependencies can be found in [requirements.txt](https://github.com
   5. [bs4](https://pypi.org/project/bs4/)
   6. [pandas](https://pandas.pydata.org/)
   7. [numpy](http://www.numpy.org/)
+  8. [matplotlib](https://matplotlib.org/)
   
 ### Approach
 
