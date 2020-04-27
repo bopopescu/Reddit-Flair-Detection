@@ -771,3 +771,45 @@ error: failed to push some refs to 'https://git.heroku.com/flair-for-reddit-indi
 $ 
 ```
 ## Shows App not compatible with the buildpack
+## Installing gunicorn and after editing Procfile contents
+```
+$ git add .                       
+$ git commit -m "deploy on heroku"
+[master 3895b5d6] deploy on heroku
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+$ git push heroku master          
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (19/19), 8.22 KiB | 4.11 MiB/s, done.
+Total 19 (delta 7), reused 0 (delta 0)
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Node.js app detected
+remote: parse error: Expected separator between values at line 56, column 20
+remote:  !     Unable to parse package.json
+remote: 
+remote: 
+remote: -----> Build failed
+remote: 
+remote: We're sorry this build is failing! You can troubleshoot common issues here:
+remote: https://devcenter.heroku.com/articles/troubleshooting-node-deploys
+remote: 
+remote: If you're stuck, please submit a ticket so we can help:
+remote: https://help.heroku.com/
+remote: 
+remote: Love,
+remote: Heroku
+remote: 
+remote:  !     Push rejected, failed to compile Node.js app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote: 
+remote: !   Push rejected to flair-for-reddit-india.
+remote: 
+To https://git.heroku.com/flair-for-reddit-india.git
+ ! [remote rejected]   master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/flair-for-reddit-india.git'
+```
