@@ -1,1 +1,1 @@
- web: npm install api && node api/src/app.js
+web: npm install server && node server/index.js
