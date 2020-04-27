@@ -82,51 +82,51 @@ The approach taken for the task is as follows:
 
 | Machine Learning Algorithm | Test Accuracy     |
 | -------------              |:-----------------:|
-| Naive Bayes                | 0.6011904762      |
-| Linear SVM                 | 0.6220238095      |
-| Logistic Regression        | **0.6339285714**  |
-| Random Forest              | 0.6160714286      |
-| MLP                        | 0.4970238095      |
+| Naive Bayes                | 0.8646408839      |
+| Linear SVM                 | 0.88121546961     |
+| Logistic Regression        | **0.8895027624**  |
+| Random Forest              | 0.823204419889    |
+| MLP                        | 0.8397790055      |
 
 #### Body as Feature
 
 | Machine Learning Algorithm | Test Accuracy     |
 | -------------              |:-----------------:|
-| Naive Bayes                | 0.2083333333      |
-| Linear SVM                 | 0.2470238095      |
-| Logistic Regression        | 0.2619047619      |
-| Random Forest              | **0.2767857143**  |
-| MLP                        | 0.2113095238      |
+| Naive Bayes                | 0.3480662983      |
+| Linear SVM                 | 0.4309392265      |
+| Logistic Regression        | 0.45303867403     |
+| Random Forest              | 0.43093922651933  |
+| MLP                        | **0.45580110**    |
 
 #### URL as Feature
 
 | Machine Learning Algorithm | Test Accuracy     |
 | -------------              |:-----------------:|
-| Naive Bayes                | 0.3005952381      |
-| Linear SVM                 | **0.3898809524**  |
-| Logistic Regression        | 0.3690476190      |
-| Random Forest              | 0.3005952381      |
-| MLP                        | 0.3214285714      |
+| Naive Bayes                | 0.63259668508     |
+| Linear SVM                 | 0.828729281767955 |
+| Logistic Regression        | **0.8425414364**  |
+| Random Forest              | 0.80662983425     |
+| MLP                        | 0.825966850828    |
 
 #### Comments as Feature
 
 | Machine Learning Algorithm | Test Accuracy     |
 | -------------              |:-----------------:|
-| Naive Bayes                | 0.5357142857      |
-| Linear SVM                 | 0.6190476190      |
-| Logistic Regression        | **0.6220238095**  |
-| Random Forest              | 0.6011904762      |
-| MLP                        | 0.4761904762      |
+| Naive Bayes                | 0.7016574585      |
+| Linear SVM                 | 0.85635359116     |
+| Logistic Regression        | **0.8618784530**  |
+| Random Forest              | 0.8563535911      |
+| MLP                        | 0.84254143646     |
 
 #### Title + Comments + URL as Feature
 
 | Machine Learning Algorithm | Test Accuracy     |
 | -------------              |:-----------------:|
-| Naive Bayes                | 0.6190476190      |
-| Linear SVM                 | 0.7529761905      |
-| Logistic Regression        | 0.7470238095      |
-| Random Forest              | **0.7797619048**  |
-| MLP                        | 0.4940476190      |
+| Naive Bayes                | 0.7707182320      |
+| Linear SVM                 | 0.89502762430     |
+| Logistic Regression        | **0.90331491712** |
+| Random Forest              | 0.859116022099447 |
+| MLP                        | 0.89226519337     |
 
 
 ### Intuition behind Combined Feature
