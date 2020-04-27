@@ -14,7 +14,7 @@ The directory is a ***Flask*** web application set-up for hosting on *Heroku* se
   7. [templates](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/templates) - Folder containing HTML files.
   8. [static](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/static) - Folder containing CSS and JS files.
   9. [app](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app) - Folder containing the main application which loads the Machine Learning models and renders the results on the web application.
-  10. [Data](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Data) - Folder containing CSV, JSON and MongoDB instances of the collected data.
+  10. [Data](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Data) - Folder containing CSV, and JSON instances of the collected data.
   11. [model](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/model) - Folder containing the saved model.
   12. [Jupyter Notebooks](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Jupyter%20Notebooks) - Folder containing Jupyter Notebooks to collect Reddit India data and train Machine Learning models.
   
