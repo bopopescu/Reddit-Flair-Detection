@@ -8,15 +8,16 @@ The directory is a ***Flask*** web application set-up for hosting on *Heroku* se
  1. [Data-Acquisition Notebook](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Jupyter%20Notebooks/reddit_data_collection.ipynb) contains all the code that was used to fetch data using PRAW API from reddit and adding it to the mongodb database using pymongo. It was the fetched back from the data base and pre-processed to add it into a CSV file to do the data analysis and build the machine learning model. It was also preprocessed and stored as a json file.
  2. [Exploratory Data Analysis Notebook](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Jupyter%20Notebooks/exploratory_data_analysis.ipynb) contains the code used to do various visual and inferential data analysis and make conclusions based on the visualizations.
   3. [Flair-Detector Models Notebook](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/Jupyter%20Notebooks/flair_detection_models.ipynb) contains the code used to train various machine learning models and check the accuracy on different features and to choose the best model for evaluation.
-  4. [requirements.txt](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/requirements.txt) - Containing all Python dependencies of the project.
-  5. [nltk.txt](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/nltk.txt) - Containing all NLTK library needed dependencies.
-  6. [Procfile](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/app/Procfile) - Needed to setup Heroku.
-  7. [templates](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/templates) - Folder containing HTML files.
-  8. [static](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/static) - Folder containing CSS and JS files.
-  9. [app](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app) - Folder containing the main application which loads the Machine Learning models and renders the results on the web application.
-  10. [Data](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Data) - Folder containing CSV, and JSON instances of the collected data.
-  11. [model](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/model) - Folder containing the saved model.
-  12. [Jupyter Notebooks](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Jupyter%20Notebooks) - Folder containing Jupyter Notebooks to collect Reddit India data and train Machine Learning models.
+  4. [Flair-Detector Notebook](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/Jupyter%20Notebooks/flair_detection.ipynb) contains the code to predict the flair of a random reddit r/india post based on the best model chosen from the notebook above.
+  5. [requirements.txt](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/requirements.txt) - Containing all Python dependencies of the project.
+  6. [nltk.txt](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/nltk.txt) - Containing all NLTK library needed dependencies.
+  7. [Procfile](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/app/Procfile) - Needed to setup Heroku.
+  8. [templates](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/templates) - Folder containing HTML files.
+  9. [static](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/static) - Folder containing CSS and JS files.
+  10. [app](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app) - Folder containing the main application which loads the Machine Learning models and renders the results on the web application.
+  11. [Data](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Data) - Folder containing CSV, and JSON instances of the collected data.
+  12. [model](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/model) - Folder containing the saved model.
+  13. [Jupyter Notebooks](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Jupyter%20Notebooks) - Folder containing Jupyter Notebooks to collect Reddit India data and train Machine Learning models.
   
 ### Codebase
 
