@@ -11,8 +11,8 @@ The directory is a ***Flask*** web application set-up for hosting on *Heroku* se
   4. [requirements.txt](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/requirements.txt) - Containing all Python dependencies of the project.
   5. [nltk.txt](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/nltk.txt) - Containing all NLTK library needed dependencies.
   6. [Procfile](https://github.com/AnshumanPati/Reddit-Flair-Detection/blob/master/app/Procfile) - Needed to setup Heroku.
-  7. [templates](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/templates) - Folder containing HTML files.
-  8. [static](https://github.com/radonys/Reddit-Flair-Detector/tree/master/templates) - Folder containing CSS and JS files.
+  7. [templates](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/templates) - Folder containing HTML files.
+  8. [static](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/static) - Folder containing CSS and JS files.
   9. [app](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app) - Folder containing the main application which loads the Machine Learning models and renders the results on the web application.
   10. [Data](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/Data) - Folder containing CSV, JSON and MongoDB instances of the collected data.
   11. [model](https://github.com/AnshumanPati/Reddit-Flair-Detection/tree/master/app/model) - Folder containing the saved model.
