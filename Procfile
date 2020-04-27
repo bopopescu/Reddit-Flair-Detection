@@ -1,1 +1,1 @@
-web: npm run start
+ web: npm install api && node api/src/app.js
